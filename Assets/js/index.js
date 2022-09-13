@@ -2,3 +2,5 @@
 // window.alert('Sto studiando JS');
 
 alert('Ciao! Scrivi il numero da calcolare')
+
+
