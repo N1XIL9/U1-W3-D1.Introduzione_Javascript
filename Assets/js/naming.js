@@ -17,12 +17,12 @@ var Pet = 'cane';*/
 
 
 
-let primoNumero = Number(prompt("scrivi il primo numero"))
-let secondoNumero = Number(prompt("scrivi il secondo numero"))
+let primoNumero = Number(prompt("scrivi il primo numero"));
+let secondoNumero = Number(prompt("scrivi il secondo numero"));
 
-document.getElementById("siri-calcolatrice").innerHTML = primoNumero + secondoNumero
+document.getElementById("risultato").innerHTML = primoNumero + secondoNumero
 
-document.getElementById("siri-calcolatrice").style.color = 'red'
+document.getElementById("risultato").style.color = 'red'
 
 
 

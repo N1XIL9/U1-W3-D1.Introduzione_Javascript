@@ -3,7 +3,13 @@ body {
     background-color: aqua;
 }
 
-#siri-calcolatrice button {
+#calcolatore {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#calcolatore button {
     text-transform: uppercase;
     padding: 20px;
     border-radius: 20px;
@@ -16,14 +22,8 @@ body {
     text-shadow: 1px 1px 8px 1px black;
 }
 
-#siri-calcolatrice button:hover {
+#calcolatore button:hover {
     padding: 23px;
     color: white;
     text-shadow: 2px 1px 8px 3px black;
-}
-
-#siri-calcolatrice {
-    display: flex;
-    justify-content: center;
-    text-align: center;
 }
