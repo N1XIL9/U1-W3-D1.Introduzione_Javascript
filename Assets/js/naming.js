@@ -17,7 +17,6 @@ var Pet = 'cane';*/
 
 
 
-let primoNumero = Number(prompt("scrivi il primo numero"));
 let secondoNumero = Number(prompt("scrivi il secondo numero"));
 
 document.getElementById("risultato").innerHTML = primoNumero + secondoNumero
@@ -25,5 +24,4 @@ document.getElementById("risultato").innerHTML = primoNumero + secondoNumero
 document.getElementById("risultato").style.color = 'red'
 
 
-
-
+document.getElementById("risultato").onclick = function () { prompt("scrivi il primo numero") };
